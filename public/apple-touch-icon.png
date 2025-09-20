@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Terminal window background -->
+  <rect width="32" height="32" fill="#001B16" rx="4"/>
+  
+  <!-- Terminal window border -->
+  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#00FF88" stroke-width="1" rx="3"/>
+  
+  <!-- Terminal title bar -->
+  <rect x="2" y="2" width="28" height="6" fill="#003322" rx="2"/>
+  
+  <!-- Terminal title bar dots -->
+  <circle cx="5" cy="5" r="1" fill="#FF5555"/>
+  <circle cx="8" cy="5" r="1" fill="#FFAA00"/>
+  <circle cx="11" cy="5" r="1" fill="#00AA00"/>
+  
+  <!-- Terminal prompt -->
+  <text x="4" y="16" font-family="monospace" font-size="8" fill="#00FF88">$</text>
+  
+  <!-- Terminal cursor -->
+  <rect x="8" y="12" width="2" height="8" fill="#00FF88">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Terminal text lines -->
+  <text x="4" y="22" font-family="monospace" font-size="6" fill="#00FF88">vikas@anaiengineer.in</text>
+  <text x="4" y="28" font-family="monospace" font-size="6" fill="#00FF88">~/portfolio</text>
+</svg>
