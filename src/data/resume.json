@@ -1,8 +1,9 @@
 {
-	"basics": {
-		"email": "vikas@anaiengineer.in",
-		"label": "AI Research Analyst",
-		"name": "Vikas Sharma",
-		"summary": "AI Research Analyst with +10 years of experience as a Web Developer. I have worked accelerating the development of start-ups and leading teams of multinational companies."
-	}
+  "basics": {
+    "name": "Vikas Sharma",
+    "label": "AI Research Analyst",
+    "email": "vikas@anaiengineer.in",
+    "summary": "AI Research Analyst with +10 years of experience as a Web Developer. I have worked accelerating the development of start-ups and leading teams of multinational companies."
+  }
 }
+
