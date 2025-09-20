@@ -66,12 +66,16 @@ cd terminal-portfolio
 Install dependencies
 
 ```bash
+npm install
+# or
 bun install
 ```
 
 Start the server
 
 ```bash
+npm run dev
+# or
 bun dev
 ```
 
