@@ -113,10 +113,7 @@ This terminal portfolio was inspired by several creative terminal-style websites
 - [term m4tt72](https://term.m4tt72.com/)
 - [Forrest](https://fkcodes.com/)
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ---
 
 **Built with ❤️ by Vikas Sharma**
+
