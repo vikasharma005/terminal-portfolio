@@ -1,6 +1,7 @@
 ---
 import type { HTMLTag, Polymorphic } from 'astro/types';
 import { SEO } from 'astro-seo';
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 import AppStyles from '@styles/app.astro';
 import FontsStyles from '@styles/fonts.astro';
@@ -77,5 +78,6 @@ const computedDescription = description ?? (typeof summary === 'string' ? summar
 	</head>
 	<body {...properties}>
 		<slot />
+		<SpeedInsights />
 	</body>
 </html>
