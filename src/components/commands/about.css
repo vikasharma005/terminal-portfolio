@@ -1,0 +1,120 @@
+.highlight {
+	font-weight: 700;
+	color: var(--color-text-200);
+}
+
+.social-link {
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: #ff8c00;
+	text-decoration: none;
+	border-bottom: 2px dashed #ff8c00;
+	transition: all 0.3s ease;
+}
+
+.social-link:hover {
+	color: #ff6b00;
+	border-bottom-color: #ff6b00;
+}
+
+/* Profile photo styling */
+.profile-photo {
+	border-radius: 50%;
+	border: 3px solid var(--color-primary);
+	height: 180px;
+	object-fit: cover;
+	object-position: center top;
+	width: 180px;
+	transition: transform 0.3s ease;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo:hover {
+	transform: scale(1.05);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile section improvements */
+.profile-section {
+	align-items: center;
+	display: flex;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.profile-content {
+	flex: 1;
+	line-height: 1.6;
+}
+
+.profile-content h1 {
+	margin: 0 0 0.5rem 0;
+	font-size: 1.8rem;
+}
+
+.profile-content .title {
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.profile-content .description {
+	font-size: 1rem;
+	color: var(--color-text-200);
+}
+
+/* Contact grid improvements */
+.contact-grid {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	margin-top: 1rem;
+}
+
+.contact-section {
+	background: var(--color-bg-100);
+	border: 1px solid var(--color-border);
+	border-radius: 8px;
+	padding: 1.5rem;
+}
+
+.contact-section h4 {
+	color: var(--color-primary);
+	margin: 0 0 1rem 0;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.contact-section p {
+	margin: 0.5rem 0;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.contact-section strong {
+	color: var(--color-text);
+	font-weight: 600;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+	.profile-section {
+		flex-direction: column;
+		text-align: center;
+		gap: 1.5rem;
+	}
+	
+	.profile-photo {
+		height: 150px;
+		width: 150px;
+	}
+	
+	.contact-grid {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+	
+	.contact-section {
+		padding: 1rem;
+	}
+}

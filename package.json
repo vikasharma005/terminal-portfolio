@@ -1,0 +1,67 @@
+{
+	"name": "@vikasharma005/terminal-portfolio",
+	"version": "2.0.2",
+	"author": "vikasharma005",
+	"description": "Vikas Sharma portfolio",
+	"keywords": [
+		"github",
+		"react",
+		"portfolio",
+		"typescript",
+		"terminal",
+		"reactjs",
+		"learn",
+		"terminal-portfolio",
+		"terminal-style-website",
+		"terminal-styled"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vikasharma005/terminal.anaiengineer.in"
+	},
+	"homepage": "https://github.com/vikasharma005/terminal.anaiengineer.in",
+	"bugs": {
+		"url": "https://github.com/vikasharma005/terminal.anaiengineer.in/issues"
+	},
+	"license": "PRIVATE",
+	"type": "module",
+	"scripts": {
+		"build": "astro build",
+		"dev": "astro dev",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix .",
+		"postinstall": "astro sync",
+		"start": "astro preview",
+		"typecheck": "tsc --noEmit && astro check"
+	},
+	"dependencies": {
+		"@nanostores/i18n": "1.2.2",
+		"@nanostores/persistent": "1.1.0",
+		"@nanostores/preact": "1.0.0",
+		"astro": "5.13.7",
+		"astro-seo": "0.8.4",
+		"lodash": "4.17.21",
+		"nanostores": "1.0.1",
+		"normalize.css": "8.0.1",
+		"preact": "10.27.1"
+	},
+	"devDependencies": {
+		"@astrojs/check": "0.9.4",
+		"@astrojs/preact": "4.1.1",
+		"@astrojs/sitemap": "3.5.1",
+		"@astrojs/ts-plugin": "1.10.4",
+		"@hexadrop/eslint-config": "0.1.6",
+		"@hexadrop/tsconfig": "0.0.5",
+		"@playform/compress": "0.2.0",
+		"@types/lodash": "4.17.20",
+		"@vite-pwa/astro": "1.1.0",
+		"astro-robots-txt": "1.0.0",
+		"astro-webmanifest": "1.0.0",
+		"eslint": "9.35.0",
+		"typescript": "5.9.2"
+	},
+	"overrides": {
+		"react": "npm:@preact/compat@18.3.1",
+		"react-dom": "npm:@preact/compat@18.3.1"
+	}
+}

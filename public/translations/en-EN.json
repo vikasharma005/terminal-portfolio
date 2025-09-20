@@ -1,0 +1,58 @@
+{
+	"about": {
+		"hi": "Hi, my name is",
+		"im": "I'm a",
+		"developer": "AI Research Analyst",
+		"based": "based in Jaipur, India.",
+		"description": "10+ years of experience as a Web Developer. I have worked on accelerating start-up development and leading teams in multinational companies."
+	},
+	"commands": {
+		"about": "about Vikas",
+		"clear": "clear the terminal",
+		"echo": "print out anything",
+		"education": "my education background",
+		"email": "send an email to me",
+		"gui": "go to my portfolio in GUI",
+		"help": "check available commands",
+		"history": "view command history",
+		"locale": "check available locales",
+		"projects": "view projects that I've coded",
+		"pwd": "print current working directory",
+		"resume": "go to my resume website",
+		"socials": "check out my social accounts",
+		"themes": "check available themes",
+		"welcome": "display hero section",
+		"whoami": "about current user"
+	},
+	"email": {
+		"caption": "write some lineas at "
+	},
+	"gui": {
+		"link": "Link to my GUI version"
+	},
+	"help": {
+		"alias": "alias",
+		"tab_ctrl": "Tab or Ctrl + i",
+		"tab_ctrl_desc": "autocompletes the command",
+		"up_arrow": "Up Arrow",
+		"up_arrow_desc": "go back to previous command",
+		"ctrl_l": "Ctrl + l",
+		"ctrl_l_desc": "clear the terminal"
+	},
+	"not_found": {
+		"command": "command not found"
+	},
+	"resume": {
+		"link": "Link to my resume"
+	},
+	"usage": {
+		"command": "Usage",
+		"eg": "eg"
+	},
+	"welcome": {
+		"title": "Welcome to my terminal portfolio. (Version {version})",
+		"project_source": "This project's source code can be found in this project's ",
+		"repo": "GitHub repo",
+		"available_commands": "For a list of available commands, type "
+	}
+}

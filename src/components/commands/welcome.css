@@ -1,0 +1,138 @@
+.hero {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.hero > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    min-width: 0;
+}
+
+.hero > div:last-child pre:first-child {
+    margin: 0 auto;
+}
+
+.command {
+    color: var(--color-primary);
+}
+
+.name {
+    margin-bottom: 1rem;
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+    overflow: visible;
+    text-align: left;
+    width: 100%;
+    max-width: none;
+    min-width: 400px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease-in-out infinite, fadeIn 1s ease-in;
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
+
+.name-mobile {
+    margin: 0 auto 1rem;
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+    overflow: visible;
+    text-align: left;
+    width: 100%;
+    max-width: none;
+    min-width: 300px;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease-in-out infinite, fadeIn 1s ease-in;
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.3);
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Theme variations */
+[data-theme="dark"] .name,
+[data-theme="dark"] .name-mobile {
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4, #feca57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+[data-theme="light"] .name,
+[data-theme="light"] .name-mobile {
+    background: linear-gradient(45deg, #e74c3c, #3498db, #2ecc71, #f39c12, #9b59b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+[data-theme="terminal"] .name,
+[data-theme="terminal"] .name-mobile {
+    background: linear-gradient(45deg, #00ff00, #ffff00, #00ffff, #ff00ff, #ff0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: terminalFlicker 0.1s infinite alternate;
+}
+
+@keyframes terminalFlicker {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+@media (min-width: 550px) {
+    .name-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .name {
+        display: none;
+    }
+
+    .img {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .hero > div:first-child {
+        flex-basis: 55%;
+    }
+
+    .hero > div:last-child {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .name {
+        margin: 1rem auto;
+    }
+
+    .hero > div:last-child {
+        margin: 0 auto;
+    }
+}
+

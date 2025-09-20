@@ -1,0 +1,15 @@
+---
+import Terminal from '@components/terminal.tsx';
+import Layout from '@layout';
+---
+
+<Layout>
+	<main>
+		<h1
+			aria-label='Terminal Portfolio'
+			class='sr-only'>
+			Terminal portfolio
+		</h1>
+		<Terminal client:only='preact' />
+	</main>
+</Layout>

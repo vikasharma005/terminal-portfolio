@@ -1,0 +1,25 @@
+# build output
+dist/
+dist-astro/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+*.log
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# firebase
+.firebase
+
+# gha-creds
+gha-creds*.json
