@@ -6,7 +6,6 @@ import { useStore } from '@nanostores/preact';
 import type { FunctionalComponent } from 'preact';
 
 const messages = i18n('contact', {
-	title: 'Get In Touch',
 	country: 'India',
 	github: 'GitHub',
 	instagram: 'Instagram',
@@ -14,6 +13,7 @@ const messages = i18n('contact', {
 	linkedin: 'LinkedIn',
 	newsletter: 'Newsletter',
 	phone: '+91 96640 03961',
+	title: 'Get In Touch',
 });
 
 const Contact: FunctionalComponent = () => {
