@@ -1,0 +1,4 @@
+Contact: mailto:vikas@anaiengineer.in
+Expires: 2036-01-21T12:12:04.000Z
+Preferred-Languages: en
+Canonical: https://anaiengineer.in/.well-known/security.txt

@@ -14,8 +14,30 @@ const { name = '', nameShort, summary } = resume.basics ?? {};
 export default defineConfig({
 	integrations: [
 		preact(),
-		sitemap(),
-		robotsTxt(),
+		sitemap({
+			filter: (page) => !page.includes('404'),
+			changefreq: 'weekly',
+			priority: 0.7,
+			lastmod: new Date(),
+		}),
+		robotsTxt({
+			policy: [
+				{
+					userAgent: '*',
+					allow: '/',
+					crawlDelay: 1,
+				},
+				{
+					userAgent: 'Googlebot',
+					allow: '/',
+					crawlDelay: 0,
+				},
+			],
+			sitemap: [
+				'https://anaiengineer.in/sitemap.xml',
+				'https://www.anaiengineer.in/sitemap.xml',
+			],
+		}),
 		manifest({
 			background_color: '#FDFFF5',
 

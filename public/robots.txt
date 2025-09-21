@@ -1,0 +1,97 @@
+# Robots.txt for anaiengineer.in - Optimized for Fast Indexing
+# AI Research Analyst Portfolio - Vikas Sharma
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Specific optimizations for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Sitemap locations (both www and non-www)
+Sitemap: https://anaiengineer.in/sitemap.xml
+Sitemap: https://www.anaiengineer.in/sitemap.xml
+
+# Block access to development and sensitive files
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /src/
+Disallow: /docs/
+Disallow: /dist/
+Disallow: /build/
+Disallow: /.env
+Disallow: /.env.*
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /tsconfig.json
+Disallow: /astro.config.*
+Disallow: /eslint.config.*
+Disallow: /renovate.json
+
+# Block source files but allow compiled assets
+Disallow: /*.ts$
+Disallow: /*.tsx$
+Disallow: /*.jsx$
+Disallow: /*.astro$
+Disallow: /*.md$
+Disallow: /*.json$
+
+# Allow important assets and files
+Allow: /favicon.ico
+Allow: /favicon.svg
+Allow: /apple-touch-icon.png
+Allow: /fonts/
+Allow: /og/
+Allow: /translations/
+Allow: /*.pdf$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+Allow: /*.woff$
+Allow: /*.woff2$
+Allow: /*.ttf$
+Allow: /*.eot$
+
+# Allow CSS and JS files (compiled assets)
+Allow: /*.css$
+Allow: /*.js$
+
+# Block common bot traps and admin areas
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /logs/
+Disallow: /log/
+
+# Host directive for canonical domain
+Host: anaiengineer.in
