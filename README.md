@@ -6,7 +6,7 @@
     Interactive terminal-style portfolio showcasing AI Research Analyst & Tech Entrepreneur
 </p>
 
-![vikas-terminal-portfolio](docs/terminal.anaiengineer.in.webp)
+![vikas-terminal-portfolio](docs/anaiengineer.in.webp)
 
 ## Features
 
@@ -85,7 +85,7 @@ Access the GitHub Action [Deploy](https://github.com/vikasharma005/terminal-port
 
 ## Live Demo
 
-Visit the live portfolio: [terminal.anaiengineer.in](https://terminal.anaiengineer.in)
+Visit the live portfolio: [anaiengineer.in](https://anaiengineer.in)
 
 ## Contact
 
