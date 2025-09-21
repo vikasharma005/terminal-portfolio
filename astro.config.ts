@@ -63,5 +63,5 @@ export default defineConfig({
 		}),
 		compress(),
 	],
-	site: 'https://terminal.anaiengineer.in',
+	site: 'https://anaiengineer.in',
 });

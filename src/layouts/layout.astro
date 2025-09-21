@@ -52,8 +52,11 @@ const computedDescription = description ?? (typeof summary === 'string' ? summar
 			name='generator'
 		/>
 
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://anaiengineer.in{Astro.url.pathname}" />
+
 		<link
-			href='/sitemap-index.xml'
+			href='/sitemap.xml'
 			rel='sitemap'
 		/>
 

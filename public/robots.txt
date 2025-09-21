@@ -93,5 +93,9 @@ Disallow: /temp/
 Disallow: /logs/
 Disallow: /log/
 
-# Host directive for canonical domain
+# Host directive for canonical domain (non-www preferred)
 Host: anaiengineer.in
+
+# Additional directives for www subdomain
+User-agent: *
+Disallow: /www/
