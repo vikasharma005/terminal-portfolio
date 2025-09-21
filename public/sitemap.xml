@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <!-- Main Pages -->
+  <!-- Main Page - Terminal Portfolio (Single Page Application) -->
   <url>
     <loc>https://anaiengineer.in/</loc>
     <lastmod>2025-01-21T12:12:04+00:00</lastmod>
@@ -13,74 +13,10 @@
     </image:image>
   </url>
   
-  <!-- Terminal Command Pages (Virtual URLs for SEO) -->
-  <url>
-    <loc>https://anaiengineer.in/about</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/experience</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/projects</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/skills</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/education</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/achievements</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/volunteering</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/contact</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://anaiengineer.in/resume</loc>
-    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- WWW Version -->
+  <!-- WWW Version (Redirects to non-www) -->
   <url>
     <loc>https://www.anaiengineer.in/</loc>
-    <lastmod>2025-09-21T12:12:04+00:00</lastmod>
+    <lastmod>2025-01-21T12:12:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
