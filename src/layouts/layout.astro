@@ -55,6 +55,11 @@ const computedDescription = description ?? (typeof summary === 'string' ? summar
 		<!-- Canonical URL -->
 		<link rel="canonical" href="https://anaiengineer.in{Astro.url.pathname}" />
 
+		<!-- Bing-specific meta tags -->
+		<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+		<meta name="msapplication-TileColor" content="#C6F118" />
+		<meta name="msapplication-config" content="/browserconfig.xml" />
+
 		<link
 			href='/sitemap.xml'
 			rel='sitemap'

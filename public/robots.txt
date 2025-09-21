@@ -13,6 +13,9 @@ Crawl-delay: 0
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 0
+# Bing-specific optimizations
+Allow: /sitemap.xml
+Allow: /robots.txt
 
 User-agent: Slurp
 Allow: /
