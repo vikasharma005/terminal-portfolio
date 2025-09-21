@@ -52,9 +52,6 @@ const computedDescription = description ?? (typeof summary === 'string' ? summar
 			name='generator'
 		/>
 
-		<!-- Canonical URL -->
-		<link rel="canonical" href="https://anaiengineer.in{Astro.url.pathname}" />
-
 		<!-- Bing-specific meta tags -->
 		<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
 		<meta name="msapplication-TileColor" content="#C6F118" />
@@ -71,6 +68,7 @@ const computedDescription = description ?? (typeof summary === 'string' ? summar
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
 		<SEO
+			canonical="https://anaiengineer.in"
 			description={computedDescription}
 			openGraph={{
 				basic: {
